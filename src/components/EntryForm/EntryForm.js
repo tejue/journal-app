@@ -1,14 +1,15 @@
+import "./EntryForm.css";
 import Button from "../Button/Button.js";
 
-export default function EntryForm() {
+export default function EntryForm({ entryFormHeader, labelInputTitle }) {
   return (
-    <>
-      <h2>NEW ENTRY</h2>
-      <label htmlFrom="inputTitle">Motto</label>
+    <section className="entryForm">
+      <h2 className="entryForm__titel">{entryFormHeader}</h2>
+      <label htmlFor="inputTitle">{labelInputTitle}</label>
       <input id="inputTitle" type="text" required />
-      <label htmlFrom="inputMessage">Notes</label>
+      <label htmlFor="inputMessage">Notes</label>
       <textarea id="inputMessage"></textarea>
       <Button />
-    </>
+    </section>
   );
 }

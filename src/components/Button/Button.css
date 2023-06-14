@@ -1,0 +1,22 @@
+.button {
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 40px;
+  gap: 8px;
+
+  width: 133px;
+  height: 48px;
+
+  /* nemo */
+  background: #ff4a11;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

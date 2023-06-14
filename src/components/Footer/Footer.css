@@ -1,0 +1,47 @@
+@import "../../App.css";
+
+.footer {
+  background-color: var(--color-granite);
+  color: var(--color-foam);
+
+  /* Footer */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 0px 0px;
+  gap: 10px;
+
+  width: 368px;
+  height: 88px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.footer__content {
+  /* FooterContent */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 16px;
+  gap: 10px;
+
+  width: 368px;
+  height: 56px;
+
+  /* granite */
+  background: var(--color-granite);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

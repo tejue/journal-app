@@ -1,3 +1,5 @@
-export default function Footer() {
-  return <footer>Journal App - 2028</footer>;
+import "./Footer.css";
+
+export default function Footer({ children }) {
+  return <footer className="footer">{children}</footer>;
 }

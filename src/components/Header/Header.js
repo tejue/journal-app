@@ -1,7 +1,9 @@
-export default function Header() {
+import "./Header.css";
+
+export default function Header({ children }) {
   return (
-    <header>
-      <h1>Journal</h1>
+    <header className="header">
+      <h1 className="header__content">{children}</h1>
     </header>
   );
 }
